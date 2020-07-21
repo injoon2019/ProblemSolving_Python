@@ -1,8 +1,13 @@
-# 스택 문제
-
+'''
+Problem Solving Baekjoon 10828
+Author: Injun Son
+Date: July 21, 2020
+'''
+import sys
 stack = []
 
 def process_stack(command):
+
     if command[0] == 'push':
         stack.append(command[1])
 
@@ -34,5 +39,5 @@ def process_stack(command):
 n = int(input())
 
 for _ in range(n):
-    command = input().split(" ")
+    command = sys.stdin.readline().split()
     process_stack(command)
