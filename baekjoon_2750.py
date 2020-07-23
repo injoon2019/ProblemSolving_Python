@@ -16,3 +16,11 @@ for i in range(N):
 for i in arr:
     print(i)
 
+
+#선택 정렬
+# for i in range(N):
+#     min_index = i
+#     for j in range(i,N):
+#         if arr[j] < arr[min_index]:
+#             min_index = j
+#     arr[i], arr[min_index] = arr[min_index], arr[i]
