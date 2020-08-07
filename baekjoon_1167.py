@@ -30,5 +30,6 @@ for i in range(1, n+1):
         if a[j] != -1:
             s[a[0]].append([a[j], a[j+1]])
 
+print(s)
 di = dijkstra(1)
 print(max(dijkstra(di.index(max(di[1:])))[1:]))
