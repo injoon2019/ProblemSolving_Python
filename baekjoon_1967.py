@@ -1,9 +1,8 @@
 '''
-Problem Solving Baekjoon 1167
+Problem Solving Baekjoon 1967
 Author: Injun Son
 Date: August 7, 2020
 '''
-#https://pacific-ocean.tistory.com/324
 from heapq import heappush, heappop
 import sys
 INF = sys.maxsize
@@ -16,6 +15,7 @@ def dijkstra(start):
         while heap:
             weight, node = heappop(heap)
             for node_number, node_weight in s[node]: #node의 인접노드들에 대해 weight 갱신
+                #print(node, node_number)
                 new_weight = node_weight + weight
                 if d[node_number] > new_weight:
                     d[node_number] = new_weight
@@ -24,11 +24,14 @@ def dijkstra(start):
 
 n = int(input())
 s = [[] for i in range(n+1)]
-for i in range(1, n+1):
-    a = list(map(int, input().split()))
-    for j in range(1, len(a), 2):
-        if a[j] != -1:
-            s[a[0]].append([a[j], a[j+1]])
-
+count = 0
+while True:
+    try:
+        a = list(map(int, input().split()))
+        s[a[0]].append([a[1], a[2]])
+        s[a[1]].append([a[0], a[2]])
+        count +=1
+    except:
+        break
 di = dijkstra(1)
 print(max(dijkstra(di.index(max(di[1:])))[1:]))
