@@ -1,17 +1,17 @@
 '''
 Problem Solving Baekjoon 1991_3
 Author: Injun Son
-Date: August 3, 2020
+Date: August 20, 2020
 '''
 import sys
 class Node:
-    def __init__(self, item, lchild, rchild):
-        self.item = item
+    def __init__(self, data, lchild, rchild):
+        self.data = data
         self.lchild = lchild
         self.rchild = rchild
 
 def preorder(Node):
-    print(Node.item, end="")
+    print(Node.data, end="")
     if Node.lchild != '.':
         preorder(tree[Node.lchild])
     if Node.rchild != '.':
@@ -20,7 +20,7 @@ def preorder(Node):
 def inorder(Node):
     if Node.lchild != '.':
         inorder(tree[Node.lchild])
-    print(Node.item, end="")
+    print(Node.data, end="")
     if Node.rchild != '.':
         inorder(tree[Node.rchild])
 
@@ -29,14 +29,13 @@ def postorder(Node):
         postorder(tree[Node.lchild])
     if Node.rchild != '.':
         postorder(tree[Node.rchild])
-    print(Node.item, end="")
-
+    print(Node.data, end="")
 
 N = int(input())
 tree = {}
 for _ in range(N):
-    data = input().split()
-    tree[data[0]] = Node(item = data[0], lchild = data[1], rchild=data[2])
+    arr = list(input().split())
+    tree[arr[0]] = Node(arr[0], arr[1], arr[2])
 
 preorder(tree['A'])
 print()
