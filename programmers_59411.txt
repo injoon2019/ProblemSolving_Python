@@ -1,0 +1,16 @@
+/*오랜 기간 보호한 동물(2)
+입양을 간 동물 중, 보호 기간이 가장 길었던 동물 두 마리의 아이디와 이름을 조회하는 SQL문을 작성해주세요. 
+이때 결과는 보호 기간이 긴 순으로 조회해야 합니다.
+*/
+-- 코드를 입력하세요
+
+SELECT a.ANIMAL_ID, a.NAME
+FROM ANIMAL_OUTS as a JOIN ANIMAL_INS as b ON a.ANIMAL_ID = b.ANIMAL_ID
+ORDER BY DATEDIFF(a.DATETIME, b.DATETIME) DESC
+LIMIT 2
+
+'''
+join과 inner join은 같은 것이다
+inner join에서 순서는 상관없다
+그러나 DATEDIFF 는 절대값이 아닌 DATEDIFF(a, b)하면 a-b를 리턴한다. 따라서 순서가 중요하다
+'''
