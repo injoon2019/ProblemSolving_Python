@@ -10,8 +10,7 @@ import sys
 N, M, fuel = map(int, input().split())
 graph = [list(map(int, input().split())) for _ in range(N)]
 start_y, start_x = map(int, input().split())
-start_y -=1
-start_x -=1
+start_y -=1; start_x -=1
 customer_start = []
 customer_arrival = []
 
@@ -27,6 +26,7 @@ def find_min_dist_to_customer(start_y, start_x):
 
     if (start_y, start_x) in customer_start:
         heapq.heappush(min_dist, (cnt, start_y, start_x,))
+        return min_dist[0]
 
     visited.add((start_y, start_x))
     while queue:
@@ -59,6 +59,8 @@ def find_min_dist_to_customer(start_y, start_x):
 def find_min_dist_to_dest(y, x, dest_y, dest_x):
     queue = deque()
     cnt = 0
+    if (y,x)==(dest_y, dest_x):
+        return 0
     queue.append([cnt, y, x])
     visited= set()
     while queue:
@@ -66,12 +68,12 @@ def find_min_dist_to_dest(y, x, dest_y, dest_x):
         if (y,x) == (dest_y, dest_x):
             return cnt
         else:
-            for i in range(5):
+            for i in range(4):
                 ny, nx = y+dy[i], x+dx[i]
                 if 0<=ny<N and 0<=nx<N and graph[ny][nx] !=1 and (ny,nx) not in visited:
                     visited.add((ny, nx))
                     queue.append((cnt+1, ny, nx))
-    return -100
+    return sys.maxsize
 
 for _ in range(M):
     a, b, c, d = map(int, input().split())
@@ -80,12 +82,6 @@ for _ in range(M):
 
 for _ in range(M):
     nearest = find_min_dist_to_customer(start_y, start_x)
-    # print(customer_start)
-    # print(customer_arrival)
-    # print("fuel", fuel)
-    # print("start pos", nearest[1], nearest[2])
-
-
     #아무 손님에게도 도달 못한 경우다
     if nearest == None:
         print("-1")
@@ -94,23 +90,16 @@ for _ in range(M):
     dest_index = customer_start.index((nearest[1], nearest[2]))
     dest_y, dest_x = customer_arrival[dest_index][0], customer_arrival[dest_index][1]
     fuel -= nearest[0]
-    # print("fuel at start", fuel)
 
     dist = find_min_dist_to_dest(nearest[1], nearest[2], dest_y, dest_x)
-    #목적지까지 도달 못한 경우
+    #목적지까지 도달 못한 경우 or 못 찾은 경우?
     if dist > fuel:
-        # print("dist fuck", dist, fuel)
         print("-1")
         exit()
-    fuel -= dist
-    fuel += (dist*2)
+    fuel += dist
     start_y, start_x = customer_arrival[dest_index][0],customer_arrival[dest_index][1]
-    # print("destination pos", customer_arrival[dest_index][0], customer_arrival[dest_index][1])
     customer_start.pop(dest_index)
     customer_arrival.pop(dest_index)
-
-    # print("fuel at dest", fuel)
-    # print("---------------")
 
     if len(customer_start)==0:
         break
@@ -118,11 +107,10 @@ for _ in range(M):
 print(fuel)
 
 '''
-1. 87퍼정도에서 틀리는데 반례를 못찾겠다. 다른 사람 풀이를 봐야겠다. 
-2. 아기상어 문제와 비슷한 점이 많다.
-3. 여러 목표가 있을때 bfs 를 각각 돌리는 것이 아니라 한번 돌때 전체를 돌려서 해당 목표들까지 거리를 heap에 저장해두는 것.
-4. heap에 (거리, y, x) 이런 식으로 저장을 해두면 거리가 최소인 것, 그리고 그 중에서도 가장 위에 왼쪽 것을 얻을 수 있다. 
-
+1. 아기상어 문제와 비슷한 점이 많다.
+2. 여러 목표가 있을때 bfs 를 각각 돌리는 것이 아니라 한번 돌때 전체를 돌려서 해당 목표들까지 거리를 heap에 저장해두는 것.
+3. heap에 (거리, y, x) 이런 식으로 저장을 해두면 거리가 최소인 것, 그리고 그 중에서도 가장 위에 왼쪽 것을 얻을 수 있다. 
+4. 많이 틀렸던 이유: 승객의 목적지에 도달 할 수 없는 경우를 생각하지 못했다 (목적지가 벽에 둘러쌓여있다면?)
 '''
 
 
