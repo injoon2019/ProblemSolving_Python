@@ -3,6 +3,8 @@ Problem Solving Baekjoon 14889_2
 Author: Injun Son
 Date: August 23, 2020
 '''
+
+
 from collections import deque
 import sys
 from itertools import combinations
