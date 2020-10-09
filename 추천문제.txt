@@ -1,0 +1,170 @@
+AlgoStudy2020
+Algorithm study in 2020
+//https://github.com/bb-worm/AlgoStudy2020
+1주차 (20.01.16 ~ 27)
+캐슬디펜스 https://www.acmicpc.net/problem/17135
+색종이 붙이기 https://www.acmicpc.net/problem/17136
+체스판 다시 칠하기 https://www.acmicpc.net/problem/1018
+보물 https://www.acmicpc.net/problem/1026
+가르침 https://www.acmicpc.net/problem/1062
+킹 https://www.acmicpc.net/problem/1063
+Z https://www.acmicpc.net/problem/1074
+마피아 https://www.acmicpc.net/problem/1079
+게임 https://www.acmicpc.net/problem/1103
+수영장 만들기 https://www.acmicpc.net/problem/1113
+2주차 (20.01.27 ~ 02.01)
+달이 차오른다, 가자. https://www.acmicpc.net/problem/1194
+나이트 투어 https://www.acmicpc.net/problem/1331
+미로 만들기 https://www.acmicpc.net/problem/1347
+내리막 길 https://www.acmicpc.net/problem/1520
+말이 되고픈 원숭이 https://www.acmicpc.net/problem/1600
+3주차 (20.02.01 ~ 09)
+숨바꼭질 https://www.acmicpc.net/problem/1697
+로봇 https://www.acmicpc.net/problem/1726
+점프 https://www.acmicpc.net/problem/1890
+통나무 옮기기 https://www.acmicpc.net/problem/1938
+소문난 칠공주 https://www.acmicpc.net/problem/1941
+체스 https://www.acmicpc.net/problem/1986
+다리 만들기 https://www.acmicpc.net/problem/2146
+4주차 (20.02.09 ~ 16)
+포도주 시식 https://www.acmicpc.net/problem/2156
+벽 부수고 이동하기 https://www.acmicpc.net/problem/2206
+숫자판 점프 https://www.acmicpc.net/problem/2210
+성곽 https://www.acmicpc.net/problem/2234
+물통 https://www.acmicpc.net/problem/2251
+일곱 난쟁이 https://www.acmicpc.net/problem/2309
+5-6주차 (20.02.15 ~ 29)
+탈옥 https://www.acmicpc.net/problem/9376
+불 https://www.acmicpc.net/problem/5427
+로봇 조종하기 https://www.acmicpc.net/problem/2169
+개똥벌레 https://www.acmicpc.net/problem/3020
+중량제한 https://www.acmicpc.net/problem/1939
+아맞다우산 https://www.acmicpc.net/problem/17244
+공주님을 구해라 https://www.acmicpc.net/problem/17836
+두 스티커 https://www.acmicpc.net/problem/16937
+삼각형의 값 https://www.acmicpc.net/problem/4902
+계란으로 바위치기 https://www.acmicpc.net/problem/16987
+Two Dots https://www.acmicpc.net/problem/16929
+버스 갈아타기 https://www.acmicpc.net/problem/2536
+7주차 (20.02.29 ~ 03.07)
+가로 세로 퍼즐 https://www.acmicpc.net/problem/2784
+집배원 한상덕 https://www.acmicpc.net/problem/2842
+치즈 https://www.acmicpc.net/problem/2636
+개미 https://www.acmicpc.net/problem/3048
+빵집 https://www.acmicpc.net/problem/3109
+양 https://www.acmicpc.net/problem/3184
+카탄의 개척자 https://www.acmicpc.net/problem/3678
+8주차 (20.03.07 ~ 14)
+매직 스타 https://www.acmicpc.net/problem/3967
+스타트링크 https://www.acmicpc.net/problem/5014
+연결 https://www.acmicpc.net/problem/5022
+과외맨 https://www.acmicpc.net/problem/5213
+레이저 통신 https://www.acmicpc.net/problem/6087
+NxM 보드 완주하기 https://www.acmicpc.net/problem/9944
+벽 부수기 이동하기 2 https://www.acmicpc.net/problem/14442
+9주차 (20.03.14 ~ 21)
+미친 로봇 https://www.acmicpc.net/problem/1405
+리모컨 https://www.acmicpc.net/problem/1107
+알고스팟 https://www.acmicpc.net/problem/1261
+단어 수학 https://www.acmicpc.net/problem/1339
+미로만들기 https://www.acmicpc.net/problem/2665
+퍼즐 https://www.acmicpc.net/problem/1525
+두 대표 자연수 https://www.acmicpc.net/problem/2551
+10주차 (20.03.22 ~ 29)
+엘리베이터 https://www.acmicpc.net/problem/1089
+배 https://www.acmicpc.net/problem/1092
+로봇 시뮬레이션 https://www.acmicpc.net/problem/2174
+이분 그래프 https://www.acmicpc.net/problem/1707
+주사위 쌓기 https://www.acmicpc.net/problem/2116
+카드 섞기 https://www.acmicpc.net/problem/1091
+11주차 (20.03.28 ~ 04.04)
+텀 프로젝트 https://www.acmicpc.net/problem/9466
+소수 경로 https://www.acmicpc.net/problem/1963
+탑 https://www.acmicpc.net/problem/2493
+스도쿠 https://www.acmicpc.net/problem/2580
+트리의 지름 https://www.acmicpc.net/problem/1967
+부분합 https://www.acmicpc.net/problem/1806
+12주차 (20.04.04 ~ 04.11)
+거짓말 https://www.acmicpc.net/problem/1043
+숫자고르기 https://www.acmicpc.net/problem/2668
+이모티콘 https://www.acmicpc.net/problem/14226
+치즈 https://www.acmicpc.net/problem/2638
+상범 빌딩 https://www.acmicpc.net/problem/6593
+반도체 설계 https://www.acmicpc.net/problem/2352
+13주차 (20.04.11 ~ 04.18)
+Count Circle Groups https://www.acmicpc.net/problem/10216
+두 용액 https://www.acmicpc.net/problem/2470
+돌 게임 5 https://www.acmicpc.net/problem/9659
+숨바꼭질 4 https://www.acmicpc.net/problem/13913
+불! https://www.acmicpc.net/problem/4179
+로봇 청소기 https://www.acmicpc.net/problem/4991
+14주차 (20.04.18 ~ 04.25)
+비밀번호 https://www.acmicpc.net/problem/13908
+카드 정렬하기 https://www.acmicpc.net/problem/1715
+구슬 탈출 https://www.acmicpc.net/problem/13459
+집 구하기 https://www.acmicpc.net/problem/13911
+Baaaaaaaaaduk2 (Easy) https://www.acmicpc.net/problem/16988
+가스관 https://www.acmicpc.net/problem/2931
+15주차 (20.04.26 ~ 05.02)
+사탕 게임 https://www.acmicpc.net/problem/3085
+안전 영역 https://www.acmicpc.net/problem/2468
+도시 분할 계획 https://www.acmicpc.net/problem/1647
+여행 가자 https://www.acmicpc.net/problem/1976
+타임머신 https://www.acmicpc.net/problem/11657
+화물차 https://www.acmicpc.net/problem/1400
+16주차 (20.05.02 ~ 05.09)
+접미사 배열 https://www.acmicpc.net/problem/11656
+로마 카톨릭 미사 https://www.acmicpc.net/problem/9518
+금민수의 개수 https://www.acmicpc.net/problem/1527
+봄버맨 https://www.acmicpc.net/problem/16918
+연료 채우기 https://www.acmicpc.net/problem/1826
+소수의 연속합 https://www.acmicpc.net/problem/1644
+17주차 (20.05.09 ~ 05.16)
+파이프 옮기기 1 https://www.acmicpc.net/problem/17070
+⚾ https://www.acmicpc.net/problem/17281
+배열 돌리기 4 https://www.acmicpc.net/problem/17406
+괄호 추가하기 https://www.acmicpc.net/problem/16637
+Brainf**k 인터프리터 https://www.acmicpc.net/problem/3954
+18주차 (20.05.16 ~ 23)
+연산자 끼워넣기 https://www.acmicpc.net/problem/14888
+뱀 https://www.acmicpc.net/problem/3190
+테트로미노 https://www.acmicpc.net/problem/14500
+원판 돌리기 https://www.acmicpc.net/problem/17822
+다리 만들기 2 https://www.acmicpc.net/problem/17472
+19주차 (20.05.23 ~ 30)
+키로거 https://www.acmicpc.net/problem/5397
+회전 초밥 https://www.acmicpc.net/problem/2531
+N번째 큰 수 https://www.acmicpc.net/problem/2075
+친구 네트워크 https://www.acmicpc.net/problem/4195
+환승 https://www.acmicpc.net/problem/5214
+20주차 (20.05.31 ~ 06.06)
+단어 나누기 https://www.acmicpc.net/problem/1251
+보드 점프 https://www.acmicpc.net/problem/3372
+잠수함식별 https://www.acmicpc.net/problem/2671
+신비로운 수 https://www.acmicpc.net/problem/17433
+스러피 https://www.acmicpc.net/problem/14906
+21주차 (20.06.06 ~ 13)
+소가 길을 건너간 이유 3 https://www.acmicpc.net/problem/14469
+소가 길을 건너간 이유 6 https://www.acmicpc.net/problem/14466
+미네랄 2 https://www.acmicpc.net/problem/18500
+새로운 게임 https://www.acmicpc.net/problem/17780
+일요일 아침의 데이터 https://www.acmicpc.net/problem/1445
+문제 난이도 낮추기 시작
+22주차 (20.06.13 ~ 20)
+요세푸스 문제 https://www.acmicpc.net/problem/1158
+가로수 https://www.acmicpc.net/problem/2485
+에디터 https://www.acmicpc.net/problem/1406
+로또 https://www.acmicpc.net/problem/6603
+부분수열의 합 https://www.acmicpc.net/problem/1182
+23주차 (20.06.21 ~ 27)
+아! https://www.acmicpc.net/problem/4999
+팰린드롬인지 확인하기 https://www.acmicpc.net/problem/10988
+내 학점을 구해줘 https://www.acmicpc.net/problem/10984
+배수들의 합 https://www.acmicpc.net/problem/17173
+피보나치 수 https://www.acmicpc.net/problem/2747
+24주차 (20.06.28 ~ 07.04)
+하얀 칸 https://www.acmicpc.net/problem/1100
+농구 경기 https://www.acmicpc.net/problem/1159
+이상한 곱셈 https://www.acmicpc.net/problem/1225
+주사위 https://www.acmicpc.net/problem/1233
+쉽게 푸는 문제 https://www.acmicpc.net/problem/1292
