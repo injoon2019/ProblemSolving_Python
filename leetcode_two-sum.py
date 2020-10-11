@@ -27,7 +27,7 @@ from typing import *
 #         if complement in nums[i+1:]:
 #             return nums.index(n), nums[i+1:].index(complement) + (i+1)
 
-def twoSum(nums: List[int], target:int) -> List[int]:
+# def twoSum(nums: List[int], target:int) -> List[int]:
     # nums_map = {}
     # #키와 값을 바꿔서 딕셔너리로 저장
     # for i, num in enumerate(nums):
