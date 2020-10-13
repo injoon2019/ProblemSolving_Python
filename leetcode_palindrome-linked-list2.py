@@ -21,6 +21,6 @@ class ListNode:
         self.next = next
 
 def isPalindrome(head: ListNode) -> bool:
-
+    pass
 
 print(isPalindrome())
