@@ -31,7 +31,7 @@ def solution(n, horizontal):
         for j in range(n):
             sum = i+j
             if sum%2 ==0:
-
+                pass
 
 
 print(solution(4, True))
