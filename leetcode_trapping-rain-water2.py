@@ -29,7 +29,7 @@ def trap(height: List[int]) -> int:
             waters = min(height[i], height[stack[-1]]) - height[top]
 
             total += distance * waters
-
+            print(i, stack, total)
         stack.append(i)
     return total
 
