@@ -25,19 +25,10 @@ class MyQueue:
             self.stack1.append(self.stack2.pop())
 
     def pop(self) -> int:
-        """
-        Removes the element from in front of queue and returns that element.
-        """
         return self.stack1.pop()
 
     def peek(self) -> int:
-        """
-        Get the front element.
-        """
         return self.stack1[-1]
 
     def empty(self) -> bool:
-        """
-        Returns whether the queue is empty.
-        """
         return len(self.stack1) == 0
